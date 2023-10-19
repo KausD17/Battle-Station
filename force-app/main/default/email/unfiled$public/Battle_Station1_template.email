@@ -1,0 +1,8 @@
+Hi,
+
+{!Battle_Station1__c.Name} is in {!Battle_Station1__c.Project_Status1__c}.
+
+Kindly Approve the same.
+
+Thanks and Regards.
+{!Battle_Station1__c.OwnerFullName}

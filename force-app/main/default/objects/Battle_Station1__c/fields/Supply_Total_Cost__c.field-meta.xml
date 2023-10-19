@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supply_Total_Cost__c</fullName>
+    <externalId>false</externalId>
+    <label>Supply Total Cost</label>
+    <summarizedField>Supply1__c.Total_Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>Supply1__c.Total_Cost__c</field>
+        <operation>greaterThan</operation>
+        <value>100</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Supply1__c.Quantity__c</field>
+        <operation>greaterThan</operation>
+        <value>25</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Supply1__c.Battle_Station1__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

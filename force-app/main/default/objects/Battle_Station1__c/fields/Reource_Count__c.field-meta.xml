@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reource_Count__c</fullName>
+    <externalId>false</externalId>
+    <label>Reource Count</label>
+    <summaryFilterItems>
+        <field>Resource1__c.Quantity__c</field>
+        <operation>greaterThan</operation>
+        <value>50</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Resource1__c.Battle_Station1__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

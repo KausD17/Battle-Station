@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NameAndUtilization</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(Name = &quot;RES&quot;, Utilization__c &gt; 0.3)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Check the conditions again
+Name must not be &quot;RES&quot; and Utilization must not be above 30%</errorMessage>
+</ValidationRule>
